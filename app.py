@@ -1,3 +1,5 @@
+
+                    # TERMINAL: Before creating Flask app, create a virtual environment by running commands 'python3 -m venv venv' and '. venv/scripts/activate' in the terminal 
 # 1. Configure Flask (similar to Express in React)
 from flask import Flask
 app = Flask(__name__)
