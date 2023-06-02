@@ -1,5 +1,25 @@
+from petfax import create_app
+app = create_app()
 
-                    # TERMINAL: Before creating Flask app, create a virtual environment by running commands 'python3 -m venv venv' and '. venv/scripts/activate' in the terminal 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# This below was from part 1; we deleted this after creating and importing the app factory from petfax/__init__.py
+""" 
+                    # TERMINAL: Before creating Flask app, create a virtual environment by running commands 'python3 -m venv venv' and activate the virtual env by running '. venv/scripts/activate' in the terminal 
 # 1. Configure Flask (similar to Express in React)
 from flask import Flask
 app = Flask(__name__)
@@ -13,5 +33,5 @@ def index():
 
 @app.route('/pets')
 def pets():
-    return 'These are our pets available for adoption!'
+    return 'These are our pets available for adoption!' """
     
